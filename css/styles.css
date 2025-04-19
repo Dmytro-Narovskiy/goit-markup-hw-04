@@ -21,6 +21,8 @@ img {
   display: block;
 }
 
+
+
 /* reset base */
 h1,
 h2,
@@ -494,30 +496,32 @@ a:hover {
 .footer-socials-item {
   width: 40px;
   height: 40px;
-  background-color: #4d5ae5;
   border-radius: 50%;
-  padding: 8px 8px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+  }
 
-.footer-socials-media {
+.footer-social-media {
   width: 100%;
   height: 100%;
   background-color:#4d5ae5;
   border-radius: 50%;
   display: flex;
   align-items: center; 
-  justify-content: center; 
-}
+  justify-content: center;
+  text-decoration: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} 
+  
+
+
 
 .footer-socials-icon {
   fill: #f4f4fd;
 }
 
-.footer-socials-item:hover {
+.footer-social-media:hover {
   background-color: #31d0aa;
 }
 
-.footer-socials-item:focus {
+.footer-social-media:focus {
   background-color: #31d0aa; 
 }
