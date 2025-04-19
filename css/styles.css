@@ -110,8 +110,8 @@ ul {
   gap: 40px;
 }
 
-.header-address-item {
-}
+/* .header-address-item {
+} */
 
 .address-link {
   padding: 24px 0;
@@ -138,8 +138,7 @@ a:hover {
   text-align: center;
   padding: 188px 0;
   background-color: #2e2f42;
-  background-image:;
-}
+  }
 
 .section-main-title {
   font-weight: 700;
@@ -306,8 +305,8 @@ a:hover {
   margin-bottom: 32px;
   list-style: none;
 }
-.team-socials-item {
-}
+/* .team-socials-item {
+} */
 .team-socials-link {
   width: 40px;
   height: 40px;
@@ -428,8 +427,8 @@ a:hover {
 
 /* footer-right */
 
-.footer-right {
-}
+/* .footer-right {
+} */
 
 .footer-socials {
   font-weight: 500;
@@ -452,8 +451,8 @@ a:hover {
   padding: 8px 8px;
 }
 
-.footer-socials-media {
-}
+/* .footer-socials-media {
+} */
 
 .footer-socials-icon {
   fill: #fff;
