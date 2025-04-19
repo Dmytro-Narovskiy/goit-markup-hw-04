@@ -167,8 +167,8 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* max-width: 1440px;
-  margin: 0 auto; */
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .section-main-title {
@@ -199,7 +199,6 @@ a:hover {
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 .click-button:focus {
   color: #ffffff;
@@ -302,6 +301,8 @@ a:hover {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-card-text {
@@ -336,27 +337,38 @@ a:hover {
   margin-top: 16px;
   margin-bottom: 32px;
   list-style: none;
+  }
+
+  .team-socials-item {
+  width: 40px; 
+  height: 40px; 
 }
-/* .team-socials-item {
-} */
+
 .team-socials-link {
-  width: 40px;
-  height: 40px;
-  background-color: #4d5ae5;
-  border-radius: 50%;
   display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 12px 12px;
   align-items: center;
   justify-content: center;
-  transition: background-color 0.3s ease;
-  text-decoration: none;
-  padding: 12px 12px;
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
 }
-.team-socials-icon {
+
+ .team-socials-icon {
   fill: #fff;
+
 }
 
 .team-socials-link:hover {
-  background-color: #31d0aa;
+  /* background-color: #31d0aa; */
+  background-color: #404bbf;
+}
+
+.team-socials-link:focus {
+  background-color: #404bbf;
 }
 
 /* portfolio */
